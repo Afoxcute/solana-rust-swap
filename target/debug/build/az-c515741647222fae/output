@@ -1,0 +1,6 @@
+$ mkdir -p "/home/afolabi/solana-bootcamp_2/swap/target/debug/build/az-c515741647222fae/out/try_track_caller"
+$ cd "/home/afolabi/solana-bootcamp_2/swap/target/debug/build/az-c515741647222fae/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/afolabi/solana-bootcamp_2/swap/target/debug/build/az-c515741647222fae/out/try_track_caller/try_track_caller.rs"
+$ cd "/home/afolabi/solana-bootcamp_2/swap/target/debug/build/az-c515741647222fae/out/try_track_caller" && "/home/afolabi/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin/rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/afolabi/solana-bootcamp_2/swap/target/debug/build/az-c515741647222fae/out/try_track_caller"

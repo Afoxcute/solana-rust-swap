@@ -8,10 +8,10 @@ mod instructions;
 mod state;
 
 // Set the correct key here
-declare_id!("2E59AeTf2HzmrWTcWaXR9yicu2Dh3Yqiqr6U3fwmq9Xb");
+declare_id!("4pgcTginh8ouewGXq5ojZZEnoEjazunvmWUCASFBnZch");
 
 #[program]
-pub mod swap_example {
+pub mod Swap_example {
     pub use super::instructions::*;
     use super::*;
 

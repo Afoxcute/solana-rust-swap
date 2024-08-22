@@ -2,7 +2,7 @@ import * as anchor from '@coral-xyz/anchor';
 import type { Program } from '@coral-xyz/anchor';
 import { BN } from 'bn.js';
 import { expect } from 'chai';
-import type { SwapExample } from '../target/types/swap_example';
+import type { SwapExample } from '../target/types/Swap_example';
 import { type TestValues, createValues, mintingTokens } from './utils';
 
 describe('Swap', () => {
